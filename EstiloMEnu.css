@@ -1,0 +1,156 @@
+.Bienvenido{
+  width: 90%;
+  margin: 20px 50px;
+  padding: 3px;
+  background-color:black ;
+  border: 1px solid red;
+}
+.boton{
+  width: 150px; height: 30px;
+  background-color:rgb(255, 255, 255);
+  border-radius: .5em;
+  cursor: pointer;
+  transition: background-color 1s;
+
+}
+.boton:hover{
+  background-color:red;
+}
+.boton p{
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Times New Roman';
+  color: black;
+  line-height: 1.6em;
+}
+#Orden{
+  width: 200px; height: 30px
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url(https://img.freepik.com/vector-gratis/comidas-rapidas_118500-97.jpg?size=626&ext=jpg);
+  }
+
+  header{
+    width: 100%;
+  }
+
+  .navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+  }
+
+  .navegacion ul{
+    list-style: none;
+  }
+
+  .menu > li{
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+
+  .menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+  }
+
+  /* Submenu*/
+
+  .submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+
+  .menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+  }
+  .fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  input[type=text]  {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 70%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  h2{
+    color: darkblue;
+  }
+  h1{
+    
+    border-color: black;
+    font-family: 'Segoe UI';
+    color: rgb(121, 0, 0);
+    font-size: 45px;
+  }
+  section{
+    width: 80%;
+    min-height: 500px;
+    border: 1px solid #DDD;
+    padding: 2%;
+    margin:0 auto;
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+  .producto{
+    width: 30%;
+    height: 330px;
+    background-color: #4d4d4d;
+    border:1px solid gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+  .producto img{
+    width: 60%;
+    height: 60%;
+    margin:0 auto;
+  }
